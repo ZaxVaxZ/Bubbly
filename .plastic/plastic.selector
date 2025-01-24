@@ -1,0 +1,4 @@
+repository "Bubbly@ZAXHAX@cloud"
+  path "/"
+    br "/main"
+    co "/main"
