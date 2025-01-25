@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 65201d18ad82d8f44a35fe3584b107dd
+guid: 727c6fe47eeed44408d13990ac385ecf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3652610769585666026
-    second: skygradient_0
+      213: -3805338705309354976
+    second: bub-Sheet_0
+  - first:
+      213: 2444753675810427988
+    second: bub-Sheet_1
+  - first:
+      213: -1055481552960632833
+    second: bub-Sheet_2
+  - first:
+      213: -3159521104979261625
+    second: bub-Sheet_3
+  - first:
+      213: 2830606291114910241
+    second: bub-Sheet_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +108,93 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: skygradient_0
+      name: bub-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 320
-        height: 3000
+        x: 2
+        y: 2
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae77bef742ea0b230800000000000000
-      internalID: 3652610769585666026
+      spriteID: 024bdfbeb98b03bc0800000000000000
+      internalID: -3805338705309354976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bub-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454d20ae3828de120800000000000000
+      internalID: 2444753675810427988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bub-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7463af1dc4ec10d46a6390895beef80b
+      internalID: 803527644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bub-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1ebfbcb45ce504fa599817d9c5ef2a
+      internalID: 1270396053
       vertices: []
       indices: 
       edges: []
@@ -138,7 +203,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cf6dc49c12ad89f45997e4d514cb5205
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +213,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      skygradient_0: 3652610769585666026
+      bub-Sheet_2: 803527644
+      bub-Sheet_3: 1270396053
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

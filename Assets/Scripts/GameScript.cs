@@ -4,6 +4,7 @@ public class GameScript : MonoBehaviour
 {
 	public GameObject camera;
 	public GameObject bubble;
+	private bool	stop = true;
 	private Rigidbody2D	player_rigidbody;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -11,9 +12,16 @@ public class GameScript : MonoBehaviour
 		player_rigidbody = bubble.GetComponent<Rigidbody2D>();
     }
 
+	public void setStop(bool value)
+	{
+		stop = value;
+	}
+
     // Update is called once per frame
     void Update()
     {
+		if (stop)
+			return ;
         camera.transform.Translate(Vector3.up * 0.05f);
         bubble.transform.Translate(Vector3.up * 0.05f);
 		player_rigidbody.linearVelocity = new Vector2(0f, Vector2.up.y * 0.05f);

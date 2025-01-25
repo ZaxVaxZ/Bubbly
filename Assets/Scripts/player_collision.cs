@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class player_collision : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+	private Animator animator;    // Start is called once before the first execution of Update after the MonoBehaviour is created
+	public GameObject scriptManager;
     void Start()
     {
+		animator = GetComponent<Animator>();
         Debug.Log("Player collision script is active");
     }
 
@@ -28,5 +30,7 @@ public class player_collision : MonoBehaviour
     private void    OnTriggerEnter2D(Collider2D obstacle)
     {
         Debug.Log("On trigger for player is triggered\n");
+		scriptManager.GetComponent<GameScript>()?.setStop(true);
+		animator.SetBool("isDead", true);
     }
 }
