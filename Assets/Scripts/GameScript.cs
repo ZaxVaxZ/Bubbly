@@ -15,13 +15,13 @@ public class GameScript : MonoBehaviour
     {
         camera.transform.Translate(Vector3.up * 0.1f);
         bubble.transform.Translate(Vector3.up * 0.1f);
-		if (Input.GetKeyDown (KeyCode.A))
+		if (Input.GetKey(KeyCode.A))
 		{
-        	bubble.transform.Translate(Vector3.left * 0.1f);
+        	bubble.transform.Translate(Vector3.left * 2f * Time.deltaTime);
 		}
-		if (Input.GetKeyDown (KeyCode.D))
+		if (Input.GetKey(KeyCode.D))
 		{
-        	bubble.transform.Translate(Vector3.right * 0.1f);
+        	bubble.transform.Translate(Vector3.right * 2f * Time.deltaTime);
 		}
     }
 }
