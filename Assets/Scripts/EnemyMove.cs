@@ -8,11 +8,14 @@ public class EnemyMove : MonoBehaviour
 	public GameObject bubble;
 	public GameObject camera;
 	private float height_step;
+	private	Rigidbody2D	enemy_rigidbody;
 	private float upwards;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+		enemy_rigidbody = gameObject.GetComponent<Rigidbody2D>();
+		// if (enemy_rigidbody)
 		upwards = 0.02f;
 		height_step = 4.8f;
         if (third == 2)
@@ -32,12 +35,19 @@ public class EnemyMove : MonoBehaviour
     {
         if (gameObject.transform.position.y <= camera.transform.position.y + height_step)
 		{
-			Debug.Log(move_speed);
+			// Debug.Log(move_speed);
 			if (left_to_right)
+			{
+				enemy_rigidbody.linearVelocity = new Vector2((Vector2.right.x * move_speed) * 0.001f, 0);
 				gameObject.transform.Translate((Vector3.right * move_speed) * 0.001f);
+			}
 			else
+			{
+				enemy_rigidbody.linearVelocity = new Vector2((Vector2.left.x * move_speed) * 0.001f, 0);
 				gameObject.transform.Translate((Vector3.left * move_speed) * 0.001f);
+			}
 			gameObject.transform.Translate(Vector3.up * upwards);
+			enemy_rigidbody.linearVelocity = new Vector2(0, Vector2.up.y * upwards);
 		}
 		if (gameObject.transform.position.y < camera.transform.position.y - 6)
 		{
