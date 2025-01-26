@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 9a3b9f9080d474f408b6e63210f5c733
+guid: 465ea63cc3da07d4383a1e6e55092121
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4053381014600266116
-    second: branch_0
+      213: 7746187647122769769
+    second: kelp-Sheet_0
+  - first:
+      213: 7521962091387403985
+    second: kelp-Sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: branch_0
+      name: kelp-Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 14
-        width: 116
-        height: 74
+        x: 0
+        y: 0
+        width: 61
+        height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7e4075617f7fb7c0800000000000000
-      internalID: -4053381014600266116
+      spriteID: 967854ebf9cff7b60800000000000000
+      internalID: 7746187647122769769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kelp-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 22
+        width: 61
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1deb9174ba0636860800000000000000
+      internalID: 7521962091387403985
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0fe00747120468246a35cc4b6b02fcfa
     internalID: 0
     vertices: []
     indices: 
@@ -147,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kelp-Sheet_0: 7746187647122769769
+      kelp-Sheet_1: 7521962091387403985
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

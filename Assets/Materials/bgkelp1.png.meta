@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 9a3b9f9080d474f408b6e63210f5c733
+guid: e50475d3f202eb64ca232d0182d6fc52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4053381014600266116
-    second: branch_0
+      213: -3798730155370930914
+    second: bgkelp1_0
+  - first:
+      213: 8200003740059252616
+    second: bgkelp1_1
+  - first:
+      213: 2592369798308025796
+    second: bgkelp1_2
+  - first:
+      213: -7746454016997338593
+    second: bgkelp1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: branch_0
+      name: bgkelp1_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 14
-        width: 116
-        height: 74
+        x: 227
+        y: 1907
+        width: 93
+        height: 900
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7e4075617f7fb7c0800000000000000
-      internalID: -4053381014600266116
+      spriteID: e1d1d8bdc03384bc0800000000000000
+      internalID: -3798730155370930914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgkelp1_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1886
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8873b13c4f34cc170800000000000000
+      internalID: 8200003740059252616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgkelp1_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1872
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5d99ab892f9f320800000000000000
+      internalID: 2592369798308025796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bgkelp1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 1096
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12d9ff2d111f7490800000000000000
+      internalID: -7746454016997338593
       vertices: []
       indices: 
       edges: []
