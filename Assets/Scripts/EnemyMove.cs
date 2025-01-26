@@ -7,6 +7,7 @@ public class EnemyMove : MonoBehaviour
 	public int	third = 1;
 	public GameObject bubble;
 	public GameObject camera;
+	public GameObject mainScript;
 	private float height_step;
 	private	Rigidbody2D	enemy_rigidbody;
 	private float upwards;
@@ -33,6 +34,8 @@ public class EnemyMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		if (mainScript.GetComponent<GameScript>().pause || mainScript.GetComponent<GameScript>().stop)
+			return ;
         if (gameObject.transform.position.y <= camera.transform.position.y + height_step)
 		{
 			// Debug.Log(move_speed);

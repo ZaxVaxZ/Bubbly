@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Threading.Tasks;
 
 public class player_collision : MonoBehaviour
 {
@@ -22,6 +24,13 @@ public class player_collision : MonoBehaviour
             Debug.Log("Mr. Bubble hit an obstacle");
         }
     }
+	private async void deathAnimation()
+	{
+		scriptManager.GetComponent<GameScript>()?.setStop(true);
+		animator.SetBool("isDead", true);
+		await Task.Delay(1500);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+	}
 
     private void    OnCollisionExit2D(Collision2D collision)
     {
@@ -30,7 +39,6 @@ public class player_collision : MonoBehaviour
     private void    OnTriggerEnter2D(Collider2D obstacle)
     {
         Debug.Log("On trigger for player is triggered\n");
-		scriptManager.GetComponent<GameScript>()?.setStop(true);
-		animator.SetBool("isDead", true);
+		deathAnimation();
     }
 }

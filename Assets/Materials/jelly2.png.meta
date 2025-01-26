@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jelly2_0: 3856550348233880308
+      jelly2_1: -5372330323508275173
+      jelly2_2: 634851412224876401
+      jelly2_3: -7188792548379378585
+      jelly2_4: -7616852451951498811
+      jelly2_5: 8858188487481372082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

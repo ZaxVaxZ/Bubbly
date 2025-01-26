@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      underwaterbub-Sheet_0: 6458052328736217849
+      underwaterbub-Sheet_1: 7395939969452457880
+      underwaterbub-Sheet_2: 378702271114117294
+      underwaterbub-Sheet_3: 2763753010379831739
+      underwaterbub-Sheet_4: -3187079326050096029
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

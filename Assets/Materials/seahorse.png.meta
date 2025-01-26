@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      seahorse_0: 2727363536787704940
+      seahorse_1: -3950885470317900887
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
